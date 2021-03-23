@@ -8,7 +8,7 @@ const Hero = ({ handleImgClickHero }) => {
         <img
           src={picOfMe}
           alt="placeholder replace me!"
-          className="mx-auto transform hover:scale-110 hover:-translate-y-10 mb-3 cursor-pointer"
+          className="mx-auto transform mb-3 cursor-pointer"
           onClick={(e) => handleImgClickHero(e)}
         />
         <div className="w-1/2 text-center mx-auto">test</div>
