@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/siegelal7/me/issues"
   },
-  "homepage": "https://github.com/siegelal7/me#readme"
+  "homepage": "https://github.com/siegelal7/me#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
+  },
+  "dependencies": {
+    "@craco/craco": "^6.1.1"
+  }
 }
