@@ -11,9 +11,14 @@ const PortfolioSection = () => {
             key={i.name}
             className="bg-white text-center text-black w-2/5 mt-3 mx-auto py-10"
           >
-            <img src={i.src} />
+            <img src={i.src} alt={i.name + " frontpage"} />
             <p>{i.name}</p>
-            <a href={i.pageLink} target="_blank" className="text-blue-600">
+            <a
+              href={i.pageLink}
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-600"
+            >
               Live Site
             </a>
           </div>

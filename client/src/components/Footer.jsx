@@ -9,7 +9,12 @@ const Footer = () => {
     <div className="absolute bottom-0 w-full bg-white flex flex-row justify-around content-center">
       <p className="py-3">&#169; Andrew Siegel</p>
       <div className="contact place-content-center">
-        <a href={resume} aria-label="My Resume" target="_blank">
+        <a
+          href={resume}
+          rel="noreferrer"
+          aria-label="My Resume"
+          target="_blank"
+        >
           <img
             src={cv}
             alt="resume"
@@ -20,6 +25,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/andrew-siegel-atl/"
           aria-label="My LinkedIn Link"
           target="_blank"
+          rel="noreferrer"
         >
           <img
             src={linkedin}
@@ -31,6 +37,7 @@ const Footer = () => {
           href="https://github.com/siegelal7"
           aria-label="My Github Link"
           target="_blank"
+          rel="noreferrer"
         >
           <img
             src={github}
