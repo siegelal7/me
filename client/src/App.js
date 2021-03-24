@@ -3,6 +3,7 @@ import BelowTeaser from "./components/BelowTeaser.jsx";
 import Hero from "./components/Hero.jsx";
 import PortfolioSection from "./components/PortfolioSection";
 import * as Scroll from "react-scroll";
+
 // import Footer from "./components/Footer";
 
 // let Link = Scroll.Link;
@@ -23,9 +24,10 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <div className="heroContainer h-screen">
+    <div className="App font-source">
+      <div className="heroContainer min-h-screen">
         <Hero handleImgClickHero={handleImgClickHero} />
+
         <BelowTeaser handleBelowTeaserClick={handleBelowTeaserClick} />
       </div>
       <PortfolioSection />

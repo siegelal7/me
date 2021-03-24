@@ -5,11 +5,11 @@ import Footer from "./Footer";
 const PortfolioSection = () => {
   return (
     <div className="portfolio block relative pb-16 w-full min-h-screen h-auto">
-      <div className="flex flex-row flex-wrap pb-10 transform translate-y-10 z-10 mb-1">
+      <div className="flex flex-row flex-wrap justify-around pb-10 transform translate-y-10 z-10 mb-2">
         {projs.map((i) => (
           <div
             key={i.name}
-            className="bg-white text-center text-black w-2/5 mt-3 mx-auto py-10"
+            className="bg-linen rounded text-center w-104 mt-3 mx-auto py-10 mb-1"
           >
             <img src={i.src} alt={i.name + " frontpage"} />
             <p>{i.name}</p>
@@ -17,7 +17,7 @@ const PortfolioSection = () => {
               href={i.pageLink}
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600"
+              className="text-seashell"
             >
               Live Site
             </a>
