@@ -19,7 +19,7 @@ const BelowTeaser = ({ handleBelowTeaserClick }) => {
 
   return (
     <div
-      className="w-2/3 mx-auto text-center bg-linen py-10 cursor-pointer rounded-2xl"
+      className="w-2/3 mx-auto text-center bg-seashell py-10 cursor-pointer rounded-2xl"
       onClick={(e) => handleBelowTeaserClick(e)}
       onMouseEnter={arrowBounce}
       onMouseLeave={stopArrowBounce}

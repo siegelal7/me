@@ -26,7 +26,7 @@ const Hero = ({ handleImgClickHero }) => {
             onMouseLeave={(e) => handleScrollOff(e)}
           />
           <div className="w-1/2 text-center text-lg mx-auto bg-peach rounded-3xl 2xl:bg-transparent">
-            Welcome to my little corner of the internet
+            Welcome to Andrew's little corner of the internet
           </div>
         </div>
       </div>
