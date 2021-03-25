@@ -2,25 +2,7 @@ import { faInfo } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import Modal from "./Modal";
 
-const Project = ({
-  name,
-  pageLink,
-  src,
-  info,
-  setModal,
-  handleProjectClick,
-  handleCloseClick,
-}) => {
-  //   const [modal, setModal] = useState("");
-
-  //   const handleProjectClick = (e) => {
-  //     // console.log(e.target.nextSibling.innerHTML);
-  //     setModal(e.target.nextSibling.innerHTML);
-  //   };
-  //   const handleCloseClick = (e) => {
-  //     setModal("");
-  //   };
-
+const Project = ({ name, src, info, handleProjectClick }) => {
   return (
     <>
       <div
@@ -39,12 +21,6 @@ const Project = ({
         />
         <p className="text-sm md:text-lg">{name}</p>
       </div>
-      {/* <Modal
-        name={name}
-        pageLink={pageLink}
-        modal={modal}
-        handleCloseClick={handleCloseClick}
-      /> */}
     </>
   );
 };

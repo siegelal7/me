@@ -1,4 +1,5 @@
 const Modal = ({ info, handleCloseClick }) => {
+  console.log(info.pageLink);
   //   console.log(modal);
   return (
     <div

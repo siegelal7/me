@@ -15,6 +15,7 @@ const PortfolioSection = () => {
     description: "",
   });
   const handleProjectClick = (e) => {
+    e.stopPropagation();
     setModal({ ...modal, name: e.target.nextSibling.innerHTML });
   };
 
@@ -25,7 +26,7 @@ const PortfolioSection = () => {
           i.name === modal.name &&
           setModal({
             ...modal,
-            pageLink: i.name,
+            pageLink: i.pageLink,
             ghLink: i.ghLink,
             src: i.src,
             description: i.description,
@@ -57,17 +58,17 @@ const PortfolioSection = () => {
     });
   };
   return (
-    <div className="portfolio block relative pb-16 w-full min-h-screen h-auto">
+    <div
+      onClick={handleCloseClick}
+      className="portfolio block relative pb-16 w-full min-h-screen h-auto"
+    >
       <div className="flex flex-row flex-wrap justify-around pb-10 transform translate-y-10 z-10 mb-2">
         {projs.map((i) => (
           <Project
             info={modal}
-            setModal={setModal}
             handleProjectClick={handleProjectClick}
-            handleCloseClick={handleCloseClick}
             src={i.src}
             name={i.name}
-            pageLink={i.pageLink}
           />
         ))}
       </div>
