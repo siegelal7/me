@@ -20,7 +20,7 @@ const Modal = ({ info, handleCloseClick }) => {
     <div
       className={
         info.name !== ""
-          ? "bg-introstart h-auto w-5/6 md:w-5/12 relative mx-auto pt-10 top-20 pb-16 rounded"
+          ? "bg-introstart h-auto w-5/6 md:w-5/12 relative mx-auto pt-10 top-20 pb-16 rounded mb-6"
           : "hidden"
       }
     >

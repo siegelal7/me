@@ -3,7 +3,7 @@ import contactIcons from "../utils/contactIcons";
 
 const Footer = () => {
   return (
-    <div className="absolute bottom-0 w-full bg-linen flex flex-row justify-around items-center text-sm md:text-base">
+    <div className="absolute bottom-0 w-full bg-linen flex flex-row justify-around items-center text-sm md:text-base mt-2">
       <p className="py-3">&#169; Andrew Siegel</p>
 
       <div className="contact">
