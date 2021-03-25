@@ -32,19 +32,6 @@ const PortfolioSection = () => {
             description: i.description,
           })
       );
-      // for (let i = 0; i < projs.length; i++) {
-      //   console.log(projs[i].name);
-      //   if (projs[i].name == modal.name) {
-      //     let projj = projs[i];
-      //     setModal({
-      //       ...modal,
-      //       pageLink: projj.name,
-      //       ghLink: projj.ghLink,
-      //       src: projj.src,
-      //       description: projj.description,
-      //     });
-      //   }
-      // }
     }
   }, [modal.name]);
 
@@ -65,6 +52,7 @@ const PortfolioSection = () => {
       <div className="flex flex-row flex-wrap justify-around pb-10 transform translate-y-10 z-10 mb-2">
         {projs.map((i) => (
           <Project
+            key={i.name}
             info={modal}
             handleProjectClick={handleProjectClick}
             src={i.src}

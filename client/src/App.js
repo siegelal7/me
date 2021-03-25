@@ -4,6 +4,7 @@ import Hero from "./components/Hero.jsx";
 import PortfolioSection from "./components/PortfolioSection";
 import * as Scroll from "react-scroll";
 import { isDesktop, isMobile } from "react-device-detect";
+import { BrowserRouter } from "react-router-dom";
 
 let scroll = Scroll.animateScroll;
 
@@ -19,14 +20,16 @@ function App() {
   };
 
   return (
-    <div className="App font-source">
-      <div className="heroContainer min-h-screen">
-        <Hero />
+    <BrowserRouter>
+      <div className="App font-source">
+        <div className="heroContainer min-h-screen">
+          <Hero />
 
-        <BelowTeaser handleBelowTeaserClick={handleBelowTeaserClick} />
+          <BelowTeaser handleBelowTeaserClick={handleBelowTeaserClick} />
+        </div>
+        <PortfolioSection />
       </div>
-      <PortfolioSection />
-    </div>
+    </BrowserRouter>
   );
 }
 

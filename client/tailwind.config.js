@@ -11,6 +11,7 @@ module.exports = {
       spacing: {
         104: "28rem",
         112: "33rem",
+        126: "40rem",
       },
       colors: {
         linen: "#FAF0E6",
@@ -26,6 +27,7 @@ module.exports = {
         peach: "#FFDAB9",
         peru: "peru",
         top: "#ED9552",
+        sky: "#2A94CE",
         cloud: "#CFD7C2",
         burlywood: "#DEB887",
         brown: "#8B4513",
