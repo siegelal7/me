@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9aab26c5.chunk.css",
-    "main.js": "/static/js/main.2d74a5d5.chunk.js",
-    "main.js.map": "/static/js/main.2d74a5d5.chunk.js.map",
+    "main.js": "/static/js/main.e7aaec6f.chunk.js",
+    "main.js.map": "/static/js/main.e7aaec6f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03887cff.js",
     "runtime-main.js.map": "/static/js/runtime-main.03887cff.js.map",
     "static/js/2.f424f80f.chunk.js": "/static/js/2.f424f80f.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.9aab26c5.chunk.css.map": "/static/css/main.9aab26c5.chunk.css.map",
     "static/js/2.f424f80f.chunk.js.LICENSE.txt": "/static/js/2.f424f80f.chunk.js.LICENSE.txt",
-    "static/media/Andrew_Siegel_resume.0fdb0558.pdf": "/static/media/Andrew_Siegel_resume.0fdb0558.pdf",
+    "static/media/Andrew_Siegel_resume.93841cb7.pdf": "/static/media/Andrew_Siegel_resume.93841cb7.pdf",
     "static/media/Linkedin.eb342997.png": "/static/media/Linkedin.eb342997.png",
     "static/media/adventure.31236614.png": "/static/media/adventure.31236614.png",
     "static/media/allhues.61eeca10.png": "/static/media/allhues.61eeca10.png",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.03887cff.js",
     "static/js/2.f424f80f.chunk.js",
     "static/css/main.9aab26c5.chunk.css",
-    "static/js/main.2d74a5d5.chunk.js"
+    "static/js/main.e7aaec6f.chunk.js"
   ]
 }
