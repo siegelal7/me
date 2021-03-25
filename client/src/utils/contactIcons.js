@@ -1,7 +1,7 @@
 import github from "../assets/Github.png";
 import cv from "../assets/cv-icon.png";
 import linkedin from "../assets/Linkedin.png";
-import resume from "../resume/Andrew_Siegel_resume.pdf;
+import resume from "../resume/Andrew_Siegel_resume.pdf";
 
 const contactIcons = [
   {
