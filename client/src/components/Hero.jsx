@@ -12,7 +12,7 @@ const Hero = ({ handleImgClickHero }) => {
   };
   return (
     <>
-      <div className="w-2/3 mx-auto h-min">
+      <div className="w-2/3 mx-auto h-max">
         <div className="py-14 rounded-md transform translate-y-10">
           <p
             className={introductionDisp + " text-center font-extrabold text-xl"}
@@ -38,10 +38,12 @@ const Hero = ({ handleImgClickHero }) => {
       </div>
       <div className="flex flex-row justify-around">
         <SkillzCard
+          key="frontend"
           header="Front End: "
           skillz="HTML5, CSS, JQuery & JavaScript- React and React Native, a11y, and mobile responsive design"
         />
         <SkillzCard
+          key="backend"
           header="Back End: "
           skillz="NodeJS, Express and server side programming, MySQL, MongoDb, REST API integration, more"
         />

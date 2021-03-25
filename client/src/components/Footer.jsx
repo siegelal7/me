@@ -10,6 +10,7 @@ const Footer = () => {
         <p className="inline-block">Let's Connect: </p>
         {contactIcons.map((i) => (
           <a
+            key={i.name}
             href={i.href}
             rel="noreferrer"
             aria-label={"My " + i.name}

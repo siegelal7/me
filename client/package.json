@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "http://siegelal7.github.io/me",
+  "homepage": "http://siegelal7.github.io",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.1",
