@@ -19,7 +19,7 @@ const Project = ({ name, src, info, handleProjectClick }) => {
           className="w-5/6 h-5/6 cursor-pointer mx-auto mb-2 rounded"
           alt={name + " frontpage"}
         />
-        <p className="text-sm md:text-lg">{name}</p>
+        <p className="md:text-lg">{name}</p>
       </div>
     </>
   );
