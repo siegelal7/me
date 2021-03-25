@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.4b7f70c2.chunk.css",
-    "main.js": "/me/static/js/main.f01685dc.chunk.js",
-    "main.js.map": "/me/static/js/main.f01685dc.chunk.js.map",
+    "main.css": "/me/static/css/main.6f2d177a.chunk.css",
+    "main.js": "/me/static/js/main.37698bc9.chunk.js",
+    "main.js.map": "/me/static/js/main.37698bc9.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.7d0b3b3a.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.7d0b3b3a.js.map",
     "static/js/2.f424f80f.chunk.js": "/me/static/js/2.f424f80f.chunk.js",
     "static/js/2.f424f80f.chunk.js.map": "/me/static/js/2.f424f80f.chunk.js.map",
     "index.html": "/me/index.html",
-    "static/css/main.4b7f70c2.chunk.css.map": "/me/static/css/main.4b7f70c2.chunk.css.map",
+    "static/css/main.6f2d177a.chunk.css.map": "/me/static/css/main.6f2d177a.chunk.css.map",
     "static/js/2.f424f80f.chunk.js.LICENSE.txt": "/me/static/js/2.f424f80f.chunk.js.LICENSE.txt",
     "static/media/Andrew_Siegel_resume.0fdb0558.pdf": "/me/static/media/Andrew_Siegel_resume.0fdb0558.pdf",
     "static/media/Linkedin.eb342997.png": "/me/static/media/Linkedin.eb342997.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.7d0b3b3a.js",
     "static/js/2.f424f80f.chunk.js",
-    "static/css/main.4b7f70c2.chunk.css",
-    "static/js/main.f01685dc.chunk.js"
+    "static/css/main.6f2d177a.chunk.css",
+    "static/js/main.37698bc9.chunk.js"
   ]
 }
