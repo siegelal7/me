@@ -26,7 +26,7 @@ const Modal = ({ info, handleCloseClick }) => {
     >
       <button
         onClick={(e) => handleCloseClick(e)}
-        className="absolute top left px-4 py-1 ml-1 rounded bg-black text-white hover:bg-sky hover:text-black"
+        className="absolute top left px-4 py-1 ml-1 rounded bg-black text-white hover:bg-sky hover:text-black mr-1"
       >
         X
       </button>
