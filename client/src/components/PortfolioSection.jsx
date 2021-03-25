@@ -9,7 +9,7 @@ const PortfolioSection = () => {
         {projs.map((i) => (
           <div
             key={i.name}
-            className="bg-linen rounded text-center w-104 mt-3 mx-auto py-10 mb-1"
+            className="bg-linen rounded text-center w-104 xl:w-2/5 mt-3 mx-auto py-10 mb-1"
           >
             <img src={i.src} alt={i.name + " frontpage"} />
             <p>{i.name}</p>

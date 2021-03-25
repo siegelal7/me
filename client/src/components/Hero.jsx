@@ -12,22 +12,25 @@ const Hero = ({ handleImgClickHero }) => {
   };
   return (
     <>
-      <div className="w-2/3 mx-auto h-max">
-        <div className="py-14 rounded-md transform translate-y-10">
+      <div className="w-2/3 mx-auto h-auto">
+        <div className="py-14 rounded-md">
           <p
-            className={introductionDisp + " text-center font-extrabold text-xl"}
+            className={
+              introductionDisp +
+              " text-center font-extrabold text-sm md:text-xl"
+            }
           >
             Hi. I'm Cali... and that guy is Andrew
           </p>
           <img
             src={picOfMe}
             alt="my dog Cali and I"
-            className="mx-auto mb-3 rounded"
+            className="mx-auto mb-3 rounded h-24  w-24 md:h-auto md:w-auto"
             onClick={(e) => handleImgClickHero(e)}
             onMouseEnter={(e) => handleScrollOver(e)}
             onMouseLeave={(e) => handleScrollOff(e)}
           />
-          <div className="w-1/2 text-center text-lg mx-auto bg-birdarea rounded-3xl 2xl:bg-transparent">
+          <div className="w-1/2 text-center text-sm md:text-lg mx-auto bg-birdarea rounded-3xl 2xl:bg-transparent">
             Welcome to{" "}
             <span className="bg-birdarea rounded-3xl 6xl:bg-transparent">
               Andrew's
@@ -36,7 +39,7 @@ const Hero = ({ handleImgClickHero }) => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-around">
+      <div className="flex flex-row justify-around -mt-4 md:mt-0">
         <SkillzCard
           key="frontend"
           header="Front End: "
