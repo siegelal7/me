@@ -3,9 +3,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
-        "hero-pattern": "linear-gradient(90, #DCCCAA, red)",
-      }),
       screens: {
         "3xl": "1544px",
         "5xl": "1681px",
@@ -44,7 +41,6 @@ module.exports = {
   variants: {
     extend: {
       animation: ["hover"],
-      scale: ["hover"],
     },
   },
   plugins: [],
