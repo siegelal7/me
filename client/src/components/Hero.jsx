@@ -25,8 +25,12 @@ const Hero = ({ handleImgClickHero }) => {
             onMouseEnter={(e) => handleScrollOver(e)}
             onMouseLeave={(e) => handleScrollOff(e)}
           />
-          <div className="w-1/2 text-center text-lg mx-auto bg-peach rounded-3xl 2xl:bg-transparent">
-            Welcome to Andrew's little corner of the internet
+          <div className="w-1/2 text-center text-lg mx-auto bg-birdarea rounded-3xl 2xl:bg-transparent">
+            Welcome to{" "}
+            <span className="bg-birdarea rounded-3xl 6xl:bg-transparent">
+              Andrew's
+            </span>{" "}
+            little corner of the internet
           </div>
         </div>
       </div>
