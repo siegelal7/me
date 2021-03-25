@@ -17,7 +17,7 @@ const Hero = ({ handleImgClickHero }) => {
           <p
             className={
               introductionDisp +
-              " text-center font-extrabold text-sm md:text-xl"
+              " text-center md:font-extrabold text-sm md:text-xl"
             }
           >
             Hi. I'm Cali... and that guy is Andrew
@@ -25,7 +25,7 @@ const Hero = ({ handleImgClickHero }) => {
           <img
             src={picOfMe}
             alt="my dog Cali and I"
-            className="mx-auto mb-3 rounded h-24  w-24 md:h-auto md:w-auto"
+            className="mx-auto mb-3 rounded h-28  w-28 md:h-auto md:w-auto"
             onClick={(e) => handleImgClickHero(e)}
             onMouseEnter={(e) => handleScrollOver(e)}
             onMouseLeave={(e) => handleScrollOff(e)}
@@ -43,7 +43,7 @@ const Hero = ({ handleImgClickHero }) => {
         <SkillzCard
           key="frontend"
           header="Front End: "
-          skillz="HTML5, CSS, JQuery & JavaScript- React and React Native, a11y, and mobile responsive design"
+          skillz="HTML5, CSS, JQuery & JavaScript, React and React Native, a11y, and mobile responsive design"
         />
         <SkillzCard
           key="backend"
