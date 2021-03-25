@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7f5f5a9.chunk.css",
-    "main.js": "/static/js/main.bc8296c0.chunk.js",
-    "main.js.map": "/static/js/main.bc8296c0.chunk.js.map",
+    "main.css": "/static/css/main.2d5ada79.chunk.css",
+    "main.js": "/static/js/main.19813bd5.chunk.js",
+    "main.js.map": "/static/js/main.19813bd5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03887cff.js",
     "runtime-main.js.map": "/static/js/runtime-main.03887cff.js.map",
     "static/js/2.0898d4ab.chunk.js": "/static/js/2.0898d4ab.chunk.js",
     "static/js/2.0898d4ab.chunk.js.map": "/static/js/2.0898d4ab.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e7f5f5a9.chunk.css.map": "/static/css/main.e7f5f5a9.chunk.css.map",
+    "static/css/main.2d5ada79.chunk.css.map": "/static/css/main.2d5ada79.chunk.css.map",
     "static/js/2.0898d4ab.chunk.js.LICENSE.txt": "/static/js/2.0898d4ab.chunk.js.LICENSE.txt",
     "static/media/Andrew_Siegel_resume.93841cb7.pdf": "/static/media/Andrew_Siegel_resume.93841cb7.pdf",
     "static/media/Linkedin.eb342997.png": "/static/media/Linkedin.eb342997.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.03887cff.js",
     "static/js/2.0898d4ab.chunk.js",
-    "static/css/main.e7f5f5a9.chunk.css",
-    "static/js/main.bc8296c0.chunk.js"
+    "static/css/main.2d5ada79.chunk.css",
+    "static/js/main.19813bd5.chunk.js"
   ]
 }
