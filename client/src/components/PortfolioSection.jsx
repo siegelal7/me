@@ -1,29 +1,77 @@
-import React from "react";
+import React, { useState } from "react";
 import projs from "../projects/projects";
+import useDidMountEffect from "../utils/useDidMountEffect";
 import Footer from "./Footer";
+import Modal from "./Modal";
+import Project from "./Project";
 
 const PortfolioSection = () => {
+  // console.log(projs);
+  const [modal, setModal] = useState({
+    name: "",
+    pageLink: "",
+    ghLink: "",
+    src: "",
+    description: "",
+  });
+  const handleProjectClick = (e) => {
+    setModal({ ...modal, name: e.target.nextSibling.innerHTML });
+  };
+
+  useDidMountEffect(() => {
+    if (modal.name) {
+      projs.filter(
+        (i) =>
+          i.name === modal.name &&
+          setModal({
+            ...modal,
+            pageLink: i.name,
+            ghLink: i.ghLink,
+            src: i.src,
+            description: i.description,
+          })
+      );
+      // for (let i = 0; i < projs.length; i++) {
+      //   console.log(projs[i].name);
+      //   if (projs[i].name == modal.name) {
+      //     let projj = projs[i];
+      //     setModal({
+      //       ...modal,
+      //       pageLink: projj.name,
+      //       ghLink: projj.ghLink,
+      //       src: projj.src,
+      //       description: projj.description,
+      //     });
+      //   }
+      // }
+    }
+  }, [modal.name]);
+
+  const handleCloseClick = (e) => {
+    setModal({
+      name: "",
+      pageLink: "",
+      ghLink: "",
+      src: "",
+      description: "",
+    });
+  };
   return (
     <div className="portfolio block relative pb-16 w-full min-h-screen h-auto">
       <div className="flex flex-row flex-wrap justify-around pb-10 transform translate-y-10 z-10 mb-2">
         {projs.map((i) => (
-          <div
-            key={i.name}
-            className="bg-linen rounded text-center w-104 xl:w-2/5 mt-3 mx-auto py-10 mb-1"
-          >
-            <img src={i.src} alt={i.name + " frontpage"} />
-            <p>{i.name}</p>
-            <a
-              href={i.pageLink}
-              target="_blank"
-              rel="noreferrer"
-              className="text-seashell"
-            >
-              Live Site
-            </a>
-          </div>
+          <Project
+            info={modal}
+            setModal={setModal}
+            handleProjectClick={handleProjectClick}
+            handleCloseClick={handleCloseClick}
+            src={i.src}
+            name={i.name}
+            pageLink={i.pageLink}
+          />
         ))}
       </div>
+      <Modal info={modal} handleCloseClick={handleCloseClick} />
       <Footer />
     </div>
   );

@@ -1,6 +1,5 @@
 import projTwo from "../assets/seekr.png";
 import projOne from "../assets/adventure.png";
-import weather from "../assets/weather.png";
 import allhues from "../assets/allhues.png";
 
 const projs = [
