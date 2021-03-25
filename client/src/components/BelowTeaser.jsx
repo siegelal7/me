@@ -25,11 +25,8 @@ const BelowTeaser = ({ handleBelowTeaserClick }) => {
       onMouseLeave={stopArrowBounce}
     >
       <FontAwesomeIcon icon={faArrowDown} className={bounceOrNotToBounce} />
-      <p className={teaserTextDisp + " animate-pulse text-lg"}>
+      <p className={teaserTextDisp + " animate-pulse text-sm md:text-lg"}>
         Check out some projects?!
-      </p>
-      <p className={teaserTextDisp + " animate-pulse text-lg"}>
-        How about following me on GitHub??
       </p>
     </div>
   );
