@@ -14,7 +14,9 @@ const Hero = ({ handleImgClickHero }) => {
     <>
       <div className="w-2/3 mx-auto h-min">
         <div className="py-14 rounded-md transform translate-y-10">
-          <p className={introductionDisp + " text-center"}>
+          <p
+            className={introductionDisp + " text-center font-extrabold text-xl"}
+          >
             Hi. I'm Cali... and that guy is Andrew
           </p>
           <img
@@ -37,11 +39,11 @@ const Hero = ({ handleImgClickHero }) => {
       <div className="flex flex-row justify-around">
         <SkillzCard
           header="Front End: "
-          skillz="HTML5, CSS, JQuery & JavaScript- React and React Native"
+          skillz="HTML5, CSS, JQuery & JavaScript- React and React Native, a11y, and mobile responsive design"
         />
         <SkillzCard
           header="Back End: "
-          skillz="NodeJS, Express, MySQL, MongoDb, more"
+          skillz="NodeJS, Express and server side programming, MySQL, MongoDb, REST API integration, more"
         />
       </div>
     </>
