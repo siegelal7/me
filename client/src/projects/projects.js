@@ -25,7 +25,7 @@ const projs = [
     ghLink: "https://github.com/siegelal7/Find-Your-Adventure",
     src: projOne,
     description:
-      "Find Your Adventure is a one stop shop website that gives you everything you need to know about a national park site in one place, based on your preferences. We want to help users like you spend your precious time at one of America’s national park site, not online trying to get there.",
+      "Find Your Adventure is a one stop shop for everything you need to prepare for your trip to a national park site, based on your preferences. We want to help users spend their precious time at one of America’s national park site, not online trying to get there.",
   },
 ];
 
