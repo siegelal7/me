@@ -25,7 +25,10 @@ const BelowTeaser = ({ handleBelowTeaserClick }) => {
     >
       <FontAwesomeIcon icon={faArrowDown} className={bounceOrNotToBounce} />
       <p className={teaserTextDisp + " animate-pulse text-sm md:text-lg"}>
-        Check out some projects?!
+        Check out some projects!?
+      </p>
+      <p className={teaserTextDisp + " animate-pulse text-sm md:text-lg"}>
+        Contact Info below
       </p>
     </div>
   );
