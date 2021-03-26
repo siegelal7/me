@@ -43,12 +43,12 @@ const Hero = ({ handleImgClickHero }) => {
         <SkillzCard
           key="frontend"
           header="Front End: "
-          skillz="HTML5, CSS, JQuery & JavaScript, React and React Native, a11y, and mobile responsive design"
+          skillz="HTML5, CSS, JQuery & JavaScript, React and React Native, a11y, and mobile responsive design, more"
         />
         <SkillzCard
           key="backend"
           header="Back End: "
-          skillz="NodeJS, Express and server side programming, MySQL, MongoDb, REST API integration, Linux OS, more"
+          skillz="NodeJS, Express and server side programming, PHP, MySQL, MongoDb, REST API integration, Linux OS, more"
         />
       </div>
     </>
