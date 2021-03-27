@@ -46,7 +46,7 @@ const Hero = ({ handleImgClickHero }) => {
         />
         <SkillzCard
           header="Back End: "
-          skillz="NodeJS, Express, PHP, MySQL, MongoDb, REST API integration, more"
+          skillz="NodeJS, Express, PHP, MySQL, MongoDb, REST API integration, Linux OS, more"
         />
       </div>
     </>

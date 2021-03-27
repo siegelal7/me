@@ -28,7 +28,7 @@ const BelowTeaser = ({ handleBelowTeaserClick }) => {
         Check out some projects!?
       </p>
       <p className={teaserTextDisp + " animate-pulse text-sm md:text-lg"}>
-        Contact Info below
+        Contact info below
       </p>
     </div>
   );
