@@ -1,6 +1,4 @@
-import { faInfo } from "@fortawesome/free-solid-svg-icons";
-import React, { useState } from "react";
-import Modal from "./Modal";
+import React from "react";
 
 const Project = ({ name, src, info, handleProjectClick }) => {
   return (
