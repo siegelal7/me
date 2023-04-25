@@ -36,13 +36,16 @@ const PortfolioSection = () => {
   }, [modal.name]);
 
   const handleCloseClick = (e) => {
-    setModal({
-      name: "",
-      pageLink: "",
-      ghLink: "",
-      src: "",
-      description: "",
-    });
+    if(e.target.localName =='button' || (e.target.localName=='div' && e.target.className.includes('portfolio'))){
+      setModal({
+        name: "",
+        pageLink: "",
+        ghLink: "",
+        src: "",
+        description: "",
+      });
+    }
+    
   };
   return (
     <div

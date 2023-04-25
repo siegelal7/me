@@ -40,15 +40,32 @@ const Modal = ({ info, handleCloseClick }) => {
         >
           Live Site
         </a> */}
-        <p
-          className="text-blue-500 mt-2 cursor-pointer w-max mx-auto"
+        {info.name === 'Find Your Adventure' ? (<p
+          className="text-blue-500 cursor-pointer mt-2 w-max mx-auto"
           onClick={(e) => handleLinkClick(e)}
           //   href={info.pageLink}
           //   target="_blank"
           //   rel="noopener noreferrer"
         >
           Live Site
-        </p>
+        </p>) : (<p
+          className="text-red-500 mt-2 w-max mx-auto"
+          // onClick={(e) => handleLinkClick(e)}
+          //   href={info.pageLink}
+          //   target="_blank"
+          //   rel="noopener noreferrer"
+        >
+          Live Site (currently transitioning from heroku)
+        </p>)}
+        {/* <p
+          className="text-red-500 mt-2 w-max mx-auto"
+          // onClick={(e) => handleLinkClick(e)}
+          //   href={info.pageLink}
+          //   target="_blank"
+          //   rel="noopener noreferrer"
+        >
+          Live Site (currently transitioning from heroku)
+        </p> */}
 
         {/* <a
           href={info.ghLink}
